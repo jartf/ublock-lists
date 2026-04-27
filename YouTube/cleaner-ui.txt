@@ -1,0 +1,111 @@
+! Title: Cleaner YouTube UI
+! Description: Removes unnecessary clutter in YouTube web UI not yet removed by other lists.
+! Homepage: https://github.com/jartf/ublock-lists
+! Last modified: 2026-04-27
+! License: MIT
+
+!------------------ Top bar ------------------!
+! Notifications
+youtube.com##ytd-notification-topbar-button-renderer
+
+! Voice search
+youtube.com###voice-search-button
+
+! "AI companion"
+youtube.com###ai-companion-button
+
+! Top ad banner
+youtube.com###masthead-ad
+
+!------------------ Sidebar ------------------!
+! Shorts
+youtube.com##ytd-guide-entry-renderer:has(a[href="/shorts"])
+youtube.com##ytd-mini-guide-entry-renderer:has(a[href="/shorts"])
+
+! "Explore" section
+youtube.com##ytd-guide-collapsible-section-entry-renderer
+
+! "More from YouTube" aka upselling other YT services lmao
+youtube.com##ytd-guide-collapsible-entry-renderer
+
+! Guide footer links
+youtube.com##ytd-guide-links-renderer
+youtube.com###footer
+
+! Downloads shortcut (let's be real, do you even use this?)
+youtube.com##ytd-guide-downloads-entry-renderer
+
+!------------------ Home feed ------------------!
+! Shorts
+youtube.com##ytd-rich-section-renderer:has(.shortsLockupViewModelHost)
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytd-rich-item-renderer:has(.shortsLockupViewModelHost)
+
+! Community posts
+youtube.com##ytd-backstage-post-thread-renderer
+youtube.com##ytd-post-renderer
+
+! Merch/shopping
+youtube.com###merch-shelf
+youtube.com##ytd-merch-shelf-renderer
+youtube.com###shopping-timely-shelf
+youtube.com##ytd-product-list-renderer
+youtube.com##ytd-product-item-renderer
+
+! Donation
+youtube.com##ytd-donation-shelf-renderer
+
+! News tickers
+youtube.com###ticker
+youtube.com##ytd-rich-shelf-renderer[is-news]
+
+!------------------ Player ------------------!
+! End screen cards
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-covering-overlay
+
+! Info cards
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-cards-button
+
+! Ambient mode background glow type stuff
+youtube.com###cinematics
+youtube.com###cinematics-container
+youtube.com###cinematics-full-bleed-container
+
+!------------------ Ads/upselling ------------------!
+! In-feed and display ads
+youtube.com##ytd-ad-slot-renderer
+youtube.com##ytd-in-feed-ad-layout-renderer
+youtube.com##ytd-promoted-sparkles-web-renderer
+youtube.com##ytd-promoted-video-renderer
+youtube.com##ytd-display-ad-renderer
+youtube.com##ytd-banner-promo-renderer
+
+! Top bar ads
+youtube.com##ytd-masthead-ad-v4-renderer
+
+! Premium upselling
+youtube.com##ytd-premium-upsell-renderer
+youtube.com##ytd-primetime-promo-renderer
+youtube.com##ytd-mealbar-promo-renderer
+youtube.com##ytd-guide-entry-renderer:has(a[href*="premium"])
+
+!------------------ Other clutter ------------------!
+! Festive logo
+youtube.com##ytd-yoodle-renderer
+
+! Announcement top banners
+youtube.com###alert-banner
+
+! Survey popups
+youtube.com##ytd-survey-dialog-renderer
+
+! "People also search for" irrelevant stuff
+youtube.com##ytd-horizontal-card-list-renderer
+
+! Suggested channels
+youtube.com##ytd-rich-shelf-renderer:not([is-shorts]):has(#header-text)
+
+! Category bar on homepage
+youtube.com##ytd-feed-filter-chip-bar-renderer
