@@ -1,0 +1,69 @@
+! These are the URLs of all my external and personal filters that I use.
+! Because this is a LOT, something might break. You probably shouldn't use all of these unless you want to replicate my browser and you know what you're doing.
+! If you want to proceed anyway, copy and paste this into the Imports section, the comments will be ignored.
+! Last modified: 2026-04-27
+
+! AdGuard
+https://filters.adtidy.org/extension/ublock/filters/17.txt
+
+! celenity
+https://assets.celenity.dev/ublock/phoenix/filters.txt
+https://assets.celenity.dev/ublock/phoenix/quick-fixes.txt
+https://badblock.celenity.dev/abp/fonts.txt
+https://badblock.celenity.dev/abp/personal.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/abp/badblock_plus.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/abp/click-tracking.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/abp/crap.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/abp/nsa-blocklist-ng.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/base/overrides/hardened/block-beacon_overrides.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/block-page-visibility.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/block-webgl.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/block-webgpu.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/block-webrtc.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/unbreak-webgl.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/unbreak-webgpu.txt
+https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/unbreak-webrtc.txt
+
+! DandelionSprout
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Ant%D1%96%D0%A0R%D0%A1L%D1%96st.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/YouTubeEvenMorePureVideoExperience.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/AntiAstrologyList.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/AntiGlorificationOfBabiesList.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/AntiPreacherList.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/TabloidRemover.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/Twitter%20De-Politificator.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Special%20security%20lists/IDNHomographProtectionTotal.txt
+
+! Divested
+https://divested.dev/blocklists/Fingerprinting.ubl
+
+! HaGeZi
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/dyndns.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.mini.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.mini.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt
+
+! FMHY
+https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist-basic.txt
+
+! magnolia1234
+https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt
+
+! yokoffing
+https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt
+
+! Other useful lists
+https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
+https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt
+https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt
+https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt
+
+! My YouTube filter lists
+https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/YouTube/anti-adblock-bypass.txt
+https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/YouTube/cleaner-ui.txt
