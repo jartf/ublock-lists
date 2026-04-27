@@ -1,0 +1,15 @@
+! Title: 👻 Block Page Visibility
+! Version: 02April2026v1
+! Expires: 12 hours
+! Description: Block the Page Visibility API to allow background audio/video playback (and limit tracking).
+! Homepage: https://badblock.celenity.dev
+
+*##+js(aeld, pagehide)
+*##+js(aeld, visibilitychange)
+!*##+js(set, document.hasFocus, trueFunc)
+!*##+js(set, document.hidden, false)
+!*##+js(aeld, blur)
+!*##+js(aeld, focus)
+!*##+js(aeld, lostpointercapture)
+!*##+js(aeld, mouseleave)
+!*##+js(aeld, mouseout)
