@@ -22,7 +22,7 @@ jobs:
           python-version: "3.14"
 
       - name: Run mirror script
-        run: python mirror.py
+        run: python scripts/mirror.py
 
       - name: Commit and push changes
         run: |
