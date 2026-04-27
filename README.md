@@ -29,6 +29,19 @@ The [`mirror/`](./mirror) directory keeps snapshots of all upstream lists, organ
 
 Both are standard Python scripts. GitHub Actions runs both weekly on Mondays (mirrors at 02:00 UTC, compile at 03:00 UTC) and on every push.
 
+## How to use
+
+If you want my YouTube lists, copy these URLs into uBO:
+
+[https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/anti-adblock-bypass.txt](./YouTube/anti-adblock-bypass.txt)
+[https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/cleaner-ui.txt](./YouTube/cleaner-ui.txt)
+
+If you want to import the upstream lists directly, copy all text from [import-urls.txt](./import-urls.txt) into uBO’s Import section (comments will be ignored there).
+
+If you want to get the compiled master list directly:
+
+[https://raw.githubusercontent.com/jartf/ublock-lists/main/personal.txt](./personal.txt)
+
 ## Upstream sources
 
 This list pulls from these community lists:
@@ -83,19 +96,19 @@ This list pulls from these community lists:
 | Twitter and Mastodon De-Politificator | [https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/Twitter%20De-Politificator.txt](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/Twitter%20De-Politificator.txt) | Removes political content from Twitter and Mastodon |
 | YouTube: Even More Pure Video Experience | [https://raw.githubusercontent.com/DandelionSprout/adfilt/master/YouTubeEvenMorePureVideoExperience.txt](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/YouTubeEvenMorePureVideoExperience.txt) | YouTube UI cleanup |
 
-### Divested
+### [Divested](https://divested.dev/)
 
 | Name | URL | Purpose |
 | --- | --- | --- |
 | Fingerprinting Protection | [https://divested.dev/blocklists/Fingerprinting.ubl](https://divested.dev/blocklists/Fingerprinting.ubl) | Fingerprinting protection list |
 
-### FMHY
+### [FMHY](https://fmhy.net/)
 
 | Name | URL | Purpose |
 | --- | --- | --- |
 | FMHY Unsafe sites filterlist - Basic | [https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist-basic.txt](https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist-basic.txt) | Blocks unsafe sites |
 
-### HaGeZi
+### [HaGeZi](https://gitlab.com/hagezi)
 
 | Name | URL | Purpose |
 | --- | --- | --- |
@@ -104,13 +117,13 @@ This list pulls from these community lists:
 | HaGeZi's Threat Intelligence Feeds DNS Blocklist - mini version | [https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.mini.txt](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.mini.txt) | Mini threat intelligence feed |
 | HaGeZi's Ultimate mini DNS/Browser Blocklist | [https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.mini.txt](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.mini.txt) | Aggressive DNS/browser blocklist |
 
-### magnolia1234
+### [magnolia1234](https://gitflic.ru/user/magnolia1234)
 
 | Name | URL | Purpose |
 | --- | --- | --- |
 | Bypass Paywalls Clean filter | [https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt) | Bypass paywalls |
 
-### yokoffing
+### [yokoffing](https://github.com/yokoffing)
 
 | Name | URL | Purpose |
 | --- | --- | --- |
@@ -119,7 +132,7 @@ This list pulls from these community lists:
 | yokoffing's Annoyance List | [https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance%5Flist.txt](https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance%5Flist.txt) | Annoyance filters list |
 | yokoffing's click2load filters | [https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) | Forces media elements to load only on click |
 
-### Other
+### Others
 
 | Name | URL | Purpose |
 | --- | --- | --- |
@@ -127,19 +140,6 @@ This list pulls from these community lists:
 | Hide YouTube Shorts | [https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt](https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt) | Hide shorts on YouTube |
 | Huge AI Blocklist | [https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt](https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt) | Blocks sites with mainly AI-generated content |
 | YouTube Neuter | [https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt) | YouTube decluttering |
-
-## How to use
-
-If you want my YouTube lists, copy these URLs into uBO:
-
-[https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/anti-adblock-bypass.txt](./YouTube/anti-adblock-bypass.txt)
-[https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/cleaner-ui.txt](./YouTube/cleaner-ui.txt)
-
-If you want to import the upstream lists directly, copy all text from [import-urls.txt](./import-urls.txt) into uBO’s Import section (comments will be ignored there).
-
-If you want to get the compiled master list directly:
-
-[https://raw.githubusercontent.com/jartf/ublock-lists/main/personal.txt](./personal.txt)
 
 ## Local development
 
