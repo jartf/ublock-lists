@@ -1,0 +1,15 @@
+! Title: Jarema's YouTube anti adblock bypass list
+! Description: Title is pretty self-explanatory.
+! Homepage: https://github.com/jartf/ublock-lists
+! Last modified: 2026-04-27
+! License: MIT
+
+www.youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+www.youtube.com##+js(set, Object.prototype.adBlocksFound, false)
+www.youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+www.youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, trueFunc)
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+www.youtube.com/watch##+js(set, ytInitialData, undefined)
