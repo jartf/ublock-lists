@@ -2,7 +2,7 @@ import urllib.request
 import re
 from datetime import datetime, timezone
 
-MASTER = "filterlist.txt"
+MASTER = "personal.txt"
 OUTPUT = "compiled.txt"
 
 header = f"""! Title: Jarema's personal master uBlock Origin filter list
