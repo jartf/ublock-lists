@@ -46,20 +46,25 @@ If you want to get the compiled master list directly:
 
 This list pulls from these community lists:
 
-### My own lists
+<details open>
+<summary><strong>My own lists</strong></summary>
 
 | Name | URL | Purpose |
 | --- | --- | --- |
 | YouTube anti adblock bypass list | [https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/anti-adblock-bypass.txt](./YouTube/anti-adblock-bypass.txt) | Bypasses YouTube's anti-adblock |
 | YouTube cleaner UI | [https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/cleaner-ui.txt](./YouTube/cleaner-ui.txt) | Declutters YouTube's interface |
+</details>
 
-### [AdGuard](https://github.com/AdGuardTeam/AdGuardFilters)
+<details open>
+<summary><strong><a href="https://github.com/AdGuardTeam/AdGuardFilters">AdGuard</a></strong></summary>
 
 | Name | URL | Purpose |
 | --- | --- | --- |
 | AdGuard URL Tracking Filter | [https://filters.adtidy.org/extension/ublock/filters/17.txt](https://filters.adtidy.org/extension/ublock/filters/17.txt) | Removes tracking filters at the end of URLs |
+</details>
 
-### [celenity](https://celenity.dev/)
+<details open>
+<summary><strong><a href="https://celenity.dev/">celenity</a></strong></summary>
 
 | Name | URL | Purpose |
 | --- | --- | --- |
@@ -79,8 +84,10 @@ This list pulls from these community lists:
 | Personal Blocklist (ABP) | [https://badblock.celenity.dev/abp/personal.txt](https://badblock.celenity.dev/abp/personal.txt) | celenity's personal blocklist (thanks :3 ) |
 | Phoenix filters | [https://assets.celenity.dev/ublock/phoenix/filters.txt](https://assets.celenity.dev/ublock/phoenix/filters.txt) | Phoenix's built-in filters |
 | Phoenix filters - Quick fixes | [https://assets.celenity.dev/ublock/phoenix/quick-fixes.txt](https://assets.celenity.dev/ublock/phoenix/quick-fixes.txt) | Phoenix's quick fixes list |
+</details>
 
-### [DandelionSprout](https://github.com/DandelionSprout)
+<details open>
+<summary><strong><a href="https://github.com/DandelionSprout">DandelionSprout</a></strong></summary>
 
 | Name | URL | Purpose |
 | --- | --- | --- |
@@ -95,20 +102,26 @@ This list pulls from these community lists:
 | Remover for Far-Right Tabloid, Alt-Right, Ultranationalist, and Anti-Vaxx Sites | [https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/TabloidRemover.txt](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/TabloidRemover.txt) | Blocks and removes tabloid/alt-right/anti-vaccine sites |
 | Twitter and Mastodon De-Politificator | [https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/Twitter%20De-Politificator.txt](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/Twitter%20De-Politificator.txt) | Removes political content from Twitter and Mastodon |
 | YouTube: Even More Pure Video Experience | [https://raw.githubusercontent.com/DandelionSprout/adfilt/master/YouTubeEvenMorePureVideoExperience.txt](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/YouTubeEvenMorePureVideoExperience.txt) | YouTube UI cleanup |
+</details>
 
-### [Divested](https://divested.dev/)
+<details open>
+<summary><strong><a href="https://divested.dev/">Divested</a></strong></summary>
 
 | Name | URL | Purpose |
 | --- | --- | --- |
 | Fingerprinting Protection | [https://divested.dev/blocklists/Fingerprinting.ubl](https://divested.dev/blocklists/Fingerprinting.ubl) | Fingerprinting protection list |
+</details>
 
-### [FMHY](https://fmhy.net/)
+<details open>
+<summary><strong><a href="https://fmhy.net/">FMHY</a></strong></summary>
 
 | Name | URL | Purpose |
 | --- | --- | --- |
 | FMHY Unsafe sites filterlist - Basic | [https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist-basic.txt](https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist-basic.txt) | Blocks unsafe sites |
+</details>
 
-### [HaGeZi](https://gitlab.com/hagezi)
+<details open>
+<summary><strong><a href="https://gitlab.com/hagezi">HaGeZi</a></strong></summary>
 
 | Name | URL | Purpose |
 | --- | --- | --- |
@@ -116,14 +129,18 @@ This list pulls from these community lists:
 | HaGeZi's The World's Most Abused TLDs | [https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt) | Blocks abused/spam top-level domains |
 | HaGeZi's Threat Intelligence Feeds DNS Blocklist - mini version | [https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.mini.txt](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.mini.txt) | Mini threat intelligence feed |
 | HaGeZi's Ultimate mini DNS/Browser Blocklist | [https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.mini.txt](https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.mini.txt) | Aggressive DNS/browser blocklist |
+</details>
 
-### [magnolia1234](https://gitflic.ru/user/magnolia1234)
+<details open>
+<summary><strong><a href="https://gitflic.ru/user/magnolia1234">magnolia1234</a></strong></summary>
 
 | Name | URL | Purpose |
 | --- | --- | --- |
 | Bypass Paywalls Clean filter | [https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt) | Bypass paywalls |
+</details>
 
-### [yokoffing](https://github.com/yokoffing)
+<details open>
+<summary><strong><a href="https://github.com/yokoffing">yokoffing</a></strong></summary>
 
 | Name | URL | Purpose |
 | --- | --- | --- |
@@ -131,8 +148,10 @@ This list pulls from these community lists:
 | Privacy Essentials | [https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy%5Fessentials.txt](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy%5Fessentials.txt) | Privacy essentials list |
 | yokoffing's Annoyance List | [https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance%5Flist.txt](https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance%5Flist.txt) | Annoyance filters list |
 | yokoffing's click2load filters | [https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) | Forces media elements to load only on click |
+</details>
 
-### Others
+<details open>
+<summary><strong>Others</strong></summary>
 
 | Name | URL | Purpose |
 | --- | --- | --- |
@@ -140,6 +159,7 @@ This list pulls from these community lists:
 | Hide YouTube Shorts | [https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt](https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt) | Hide shorts on YouTube |
 | Huge AI Blocklist | [https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt](https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list.txt) | Blocks sites with mainly AI-generated content |
 | YouTube Neuter | [https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt](https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt) | YouTube decluttering |
+</details>
 
 ## Local development
 
