@@ -6,10 +6,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 24 Apr 2026 16:54 UTC
-! Version: 2026.0424.1654.23
+! Last modified: 03 May 2026 16:55 UTC
+! Version: 2026.0503.1655.56
 ! Syntax: AdBlock
-! Number of entries: 1480
+! Number of entries: 1479
 !
 ||0000000000000000000000.com^
 ||0x.no^
@@ -526,7 +526,6 @@
 ||freeddns.us^
 ||freedynamicdns.net^
 ||freedynamicdns.org^
-||freehost000.xyz^
 ||freemyip.com^
 ||freesa.org^
 ||freetcp.com^
