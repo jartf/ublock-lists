@@ -66,4 +66,7 @@ https://raw.githubusercontent.com/mchangrh/yt-neuter/main/yt-neuter.txt
 
 ! My YouTube filter lists
 https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/YouTube/anti-adblock-bypass.txt
-https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/YouTube/cleaner-ui.txt
+https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/YouTube/cleaner-youtube-ui.txt
+
+! My GitHub filter lists
+https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/GitHub/cleaner-github-ui.txt
