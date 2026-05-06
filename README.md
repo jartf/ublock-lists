@@ -13,10 +13,18 @@ This is a collection of public uBlock Origin filter lists and some custom ones I
 
 ### My lists
 
+#### YouTube
+
 The [`YouTube/`](./YouTube) directory has two custom lists I wrote for YouTube:
 
 - [`YouTube/anti-adblock-bypass.txt`](./YouTube/anti-adblock-bypass.txt): Bypass YouTube's anti-adblock.
-- [`YouTube/cleaner-ui.txt`](./YouTube/cleaner-ui.txt): UI decluttering filters.
+- [`YouTube/cleaner-youtube-ui.txt`](./YouTube/cleaner-youtube-ui.txt): UI decluttering filters.
+
+#### GitHub
+
+The [`GitHub/`](./GitHub) directory has two custom lists I wrote for GitHub:
+
+- [`GitHub/cleaner-github-ui.txt`](./GitHub/cleaner-github-ui.txt): UI decluttering filters.
 
 ### Mirrors
 
@@ -31,10 +39,18 @@ Both are standard Python scripts. GitHub Actions runs both weekly on Mondays (mi
 
 ## How to use
 
+### YouTube lists
+
 If you want my YouTube lists, copy these URLs into uBO:
 
 [https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/anti-adblock-bypass.txt](./YouTube/anti-adblock-bypass.txt)
-[https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/cleaner-ui.txt](./YouTube/cleaner-ui.txt)
+[https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/cleaner-youtube-ui.txt](./YouTube/cleaner-youtube-ui.txt)
+
+### GitHub lists
+
+[https://raw.githubusercontent.com/jartf/ublock-lists/main/GitHub/cleaner-github-ui.txt](./GitHub/cleaner-github-ui.txt)
+
+### Manually import all upstream lists
 
 If you want to import the upstream lists directly, copy all text from [import-urls.txt](./import-urls.txt) into uBO’s Import section (comments will be ignored there).
 
@@ -52,7 +68,8 @@ This list pulls from these community lists:
 | Name | URL | Purpose |
 | --- | --- | --- |
 | YouTube anti adblock bypass list | [https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/anti-adblock-bypass.txt](./YouTube/anti-adblock-bypass.txt) | Bypasses YouTube's anti-adblock |
-| YouTube cleaner UI | [https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/cleaner-ui.txt](./YouTube/cleaner-ui.txt) | Declutters YouTube's interface |
+| YouTube cleaner UI | [https://raw.githubusercontent.com/jartf/ublock-lists/main/YouTube/cleaner-youtube-ui.txt](./YouTube/cleaner-youtube-ui.txt) | Declutters YouTube's interface |
+| GitHub cleaner UI | [https://raw.githubusercontent.com/jartf/ublock-lists/main/GitHub/cleaner-github-ui.txt](./YouTube/cleaner-github-ui.txt) | Declutters GitHub's interface |
 </details>
 
 <details open>
