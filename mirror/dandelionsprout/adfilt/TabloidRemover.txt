@@ -1,6 +1,6 @@
 ﻿[Adblock Plus 3.17]
 ! Title: 🏗 Remover for Far-Right Tabloid, Alt-Right, Ultranationalist, and Anti-Vaxx Sites
-! Version: 24April2026v1
+! Version: 16May2026v1
 ! Expires: 6 days
 ! Description: This list targets international websites that clutter search engine results with misinformation, unfounded articles, and/or contempt for humanity. While designed for use with «Google Hit Hider by Domain» to remove search results, it can also be used with other domains-list tools if you want more thorough blocking of them, incl. AdGuard Home, AdGuard for Windows/Android/Mac's DNS Filtering modes (_NOT_ their regular filtering modes) and uBlock Origin.
 ! Note: Using the list with AdGuard's browser extensions, desktop/Android programmes' regular filtering modes, or CLI tools is a REALLY freaking bad idea because they can't correctly handle raw-domains entries, and therefore look for text matches instead, so that for instance x•com blocks yandex•com.
@@ -233,6 +233,7 @@ freeandopenaustralia.org
 binary.org.au
 covidtruths.co.uk
 gumshoenews.com
+yourdemocracy.net
 
 # Far-right/alt-right fringe "newssites" (United Kingdom)
 standpointmag.co.uk
@@ -249,6 +250,7 @@ britbong.com
 stevekirsch.substack.com
 doctoraseem.com
 dailysceptic.org
+unherd.com
 
 # Far-right/alt-right "newssites" (India)
 indianlibertyreport.com
@@ -423,6 +425,8 @@ dmcl.biz
 eadaily.com
 news-pravda.com
 noticiaslatam.lat
+mid.ru
+dzen.ru
 
 # Far-right/alt-right "newssites" (United States)
 100percentfedup.com

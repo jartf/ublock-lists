@@ -6,11 +6,28 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 03 May 2026 16:55 UTC
-! Version: 2026.0503.1655.56
+! Last modified: 19 May 2026 16:59 UTC
+! Version: 2026.0519.1659.22
 ! Syntax: AdBlock
-! Number of entries: 1479
+! Number of entries: 1491
 !
+||dyn.addr.tools^
+||changeip.co.uk^
+||dynamicdns.co.uk^
+||no-ip.co.uk^
+||dyn.columbia.edu^
+||ddns.com.br^
+||ddns.com.co^
+||dynamicdns.com.co^
+||winco.com.br^
+||dyn.dns.he.net^
+||4040.idv.tw^
+||ddns.me.uk^
+||dynamicdns.me.uk^
+||d-n-s.org.uk^
+||dynamicdns.org.uk^
+||limit.org.uk^
+||h4g3z1-dyndns.web.app^
 ||0000000000000000000000.com^
 ||0x.no^
 ||100mountain.com^
@@ -54,15 +71,15 @@
 ||99tac.com^
 ||abatek.com^
 ||abmetalmecanica.com^
+||abrdns.com^
 ||access.ly^
 ||accesscam.org^
 ||acmetoy.com^
-||ad.jp^
 ||adagio.tw^
-||dyn.addr.tools^
 ||afraid.org^
 ||agropeople.ru^
 ||aintno.info^
+||airdns.org^
 ||airlinemeals.net^
 ||albertn.ru^
 ||allez.la^
@@ -102,6 +119,7 @@
 ||authorizeddns.us^
 ||autoipset.com^
 ||avandns.com^
+||awiki.org^
 ||ax.lt^
 ||b0tnet.com^
 ||b33r.us^
@@ -187,6 +205,7 @@
 ||cleansite.us^
 ||clickip.de^
 ||clienturl.net^
+||cloud-ip.biz^
 ||cloudns.asia^
 ||cloudns.be^
 ||cloudns.biz^
@@ -203,18 +222,10 @@
 ||cloudwatch.net^
 ||cloudxns.net^
 ||cnstefancelmare.ro^
-||changeip.co.uk^
-||dynamicdns.co.uk^
-||no-ip.co.uk^
 ||coalnet.ru^
 ||codns.com^
 ||colegiotorrevilano.es^
 ||collegefan.org^
-||dyn.columbia.edu^
-||ddns.com.br^
-||ddns.com.co^
-||dynamicdns.com.co^
-||winco.com.br^
 ||compress.to^
 ||compuinter.com^
 ||computersforpeace.net^
@@ -226,6 +237,7 @@
 ||coreytech.com^
 ||couchpotatofries.org^
 ||counterlight.com^
+||cpct.com^
 ||cpsnet.cz^
 ||crabdance.com^
 ||crackedsidewalks.com^
@@ -336,7 +348,6 @@
 ||doomdns.com^
 ||doomdns.org^
 ||dougtreadwell.com^
-||doyleandprendergast.com^
 ||dp76.com^
 ||dpcube.com^
 ||dray-dns.de^
@@ -381,6 +392,7 @@
 ||dynamai.com^
 ||dynamic.domains^
 ||dynamic-dns.net^
+||dynamic-dns.us^
 ||dynamic-m.com^
 ||dynamic-site.net^
 ||dynamicdns.biz^
@@ -490,6 +502,7 @@
 ||ezxdev.org^
 ||f-parts.net^
 ||f3322.net^
+||f3322.org^
 ||fairuse.org^
 ||falcongreen.com^
 ||familyds.com^
@@ -506,6 +519,7 @@
 ||fin-tech.com^
 ||fintech-llc.com^
 ||fivepals.com^
+||flashhub.net^
 ||flat4free.com^
 ||flazzard.com^
 ||flnet.org^
@@ -524,6 +538,7 @@
 ||freeddns.org^
 ||freeddns.uk^
 ||freeddns.us^
+||freedns.tech^
 ||freedynamicdns.net^
 ||freedynamicdns.org^
 ||freemyip.com^
@@ -603,6 +618,7 @@
 ||gettrails.com^
 ||gettrials.com^
 ||ghostnation.org^
+||gicp.net^
 ||gigaportal.pl^
 ||giize.com^
 ||glddns.com^
@@ -647,7 +663,6 @@
 ||happyforever.com^
 ||hatenboer.org^
 ||hbmc.net^
-||dyn.dns.he.net^
 ||health-carereform.com^
 ||her.name^
 ||here-for-more.info^
@@ -657,6 +672,7 @@
 ||hiddencorner.org^
 ||hijaxdesigns.com^
 ||hin.tw^
+||hiprinter.com^
 ||his.name^
 ||hitremixes.com^
 ||hldns.ru^
@@ -703,7 +719,6 @@
 ||ideasciviles.com^
 ||idigo.org^
 ||idleplay.net^
-||4040.idv.tw^
 ||ieserver.net^
 ||ignorelist.com^
 ||iiiii.info^
@@ -915,8 +930,6 @@
 ||maurinfor.com^
 ||mcsoft.org^
 ||mcwrite.net^
-||ddns.me.uk^
-||dynamicdns.me.uk^
 ||medbury.com^
 ||medittech.com^
 ||mefound.com^
@@ -1033,7 +1046,6 @@
 ||natrofa.com^
 ||ndcg.com^
 ||neat-url.com^
-||nedvighimost-sochi.ru^
 ||nerdcamp.net^
 ||nerdpol.ovh^
 ||net-freaks.com^
@@ -1105,9 +1117,6 @@
 ||ooguy.com^
 ||opior.com^
 ||oray.com^
-||d-n-s.org.uk^
-||dynamicdns.org.uk^
-||limit.org.uk^
 ||organiccrap.com^
 ||orskkino.ru^
 ||otzo.com^
@@ -1118,13 +1127,13 @@
 ||partycenteronline.com^
 ||patelmortgage.com^
 ||paulkelly.org^
+||pdns.cz^
 ||peachyweb.com^
 ||pedie.info^
 ||pendulumaudio.com^
 ||peregrineair.com^
 ||pgafan.net^
 ||phenixs.org^
-||photo-cult.com^
 ||photo-frame.com^
 ||php-dev.net^
 ||pics.mu^
@@ -1193,6 +1202,7 @@
 ||root64.de^
 ||roth.ca^
 ||route64.de^
+||roxa.org^
 ||rpz.su^
 ||rtam.net^
 ||rum.si^
@@ -1325,12 +1335,14 @@
 ||sundby.com^
 ||surak.kz^
 ||surfnet.ca^
+||suroot.com^
 ||swtest.ru^
 ||syno-ds.de^
 ||synology-diskstation.de^
 ||synology-ds.de^
 ||synoserver.com^
 ||sysadminetworks.com^
+||system-ns.com^
 ||systes.net^
 ||sytes.net^
 ||tallison.com^
@@ -1360,7 +1372,6 @@
 ||thingsnewandused.com^
 ||thruhere.net^
 ||tinyrealm.com^
-||tobuy.us^
 ||toh.info^
 ||topdns.com^
 ||topsddns.net^
@@ -1410,6 +1421,8 @@
 ||venez.net^
 ||verymad.net^
 ||viamisoftware.com^
+||vicp.cc^
+||vicp.net^
 ||vietnamddns.com^
 ||viewdns.net^
 ||viiic.net^
@@ -1428,7 +1441,6 @@
 ||wakingmoon.com^
 ||wan64.de^
 ||wanip.ch^
-||h4g3z1-dyndns.web.app^
 ||webhop.biz^
 ||webhop.info^
 ||webhop.me^
